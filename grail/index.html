@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Holy Grail</title>
+    <link href="flex.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body class="HolyGrail">
+  <header>All clouds up here</header>
+  <div class="HolyGrail-body">
+    <main class="HolyGrail-content"><form action="/my-handling-form-page slash look at fabios/lukes ""self referencing forms""">
+    <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+        <div align="center"><br>
+<input type="radio" name="group1" value="Milk"> Milk<br>
+<input type="radio" name="group1" value="Butter" checked> Butter<br>
+<input type="radio" name="group1" value="Cheese"> Cheese
+<hr>
+<input type="radio" name="group2" value="Water"> Water<br>
+<input type="radio" name="group2" value="Beer"> Beer<br>
+<input type="radio" name="group2" value="Wine" checked> Wine<br>
+</div>
+</div>
+<label for="tele">Telephone:</label>
+<input type='tel' id="tele" pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' title='Phone Number (Format: +99(99)9999-9999)'>
+<label for="mail">E-mail:</label>
+<input type="email" id="mail" />
+<div>
+  <label for="msg">Notes for Delivery:</label>
+  <textarea id="msg"></textarea>
+</div>
+        <div class="button">
+        <button type="submit">Send your message</button>
+    </div>
+
+
+  </form></main>
+    <nav class="HolyGrail-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <aside class="HolyGrail-ads"><h1>03-json</h1>
+    <h2>Step 1: store JSON</h2>
+    <ol>
+      <li>Open the <code>script.js</code> file for editing.</li>
+      <li>
+        Save the <code>data</code> JS Object into a key named <code>"data"</code>.
+        Make sure the object you are storing is the JSON string.
+        Not the JS Object.
+        Hint: use <code>JSON.stringify</code>
+      </li>
+      <li>Verify in the Chrome Dev Tools you stored a JSON String and not <code>"[object Object]"</code>.</li>
+    </ol>
+    <h2>Step 2: retrieve JSON</h2>
+    <ol>
+      <li>
+        Do a <code>localStorage.getItem('data')</code> and parse it into a JS Object.
+        Hint: Use <code>JSON.parse</code>
+      </li>
+      <li>
+        Modify the title on the JS Object and store it back into <code>"data"</code>.
+        Hint: use <code>JSON.stringify</code>.
+      </li>
+    </ol>
+    <h2>Congrats! Go to the next step!</h2></aside>
+  </div>
+  <footer>My feet smell bad</footer>
+</body>
+</html>

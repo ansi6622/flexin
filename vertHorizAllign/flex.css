@@ -1,0 +1,18 @@
+body{
+  background-color: gold;
+}
+.centered-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: silver;
+}
+.centered-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lime;
+}
+.blue {
+  background-color: blue;
+}
