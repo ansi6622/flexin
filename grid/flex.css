@@ -16,17 +16,21 @@
 .Grid-cell.Grid-2-3 {
   flex: 0 0 calc(200%/3);
   background-color: indigo;
+  /*flex-grow:0;*/
 }
 .Grid-cell.Grid-3-3 {
   flex: 0 0 100%;
   background-color: gray;
 }
-
+/*#moew {
+  flex-grow: 0;
+}*/
 .centered-container {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: silver;
+  /*flex-grow: 1;*/
 }
 div {
 
